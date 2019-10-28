@@ -1,0 +1,6 @@
+{
+  "forbidden": "Acesso não autorizado",
+  "internal_server_error": "Erro interno do servidor",
+  "key_constraint": "Erro interno de chave no servidor",
+  "unauthorized": "Usuário ou senha incorretos"
+}

@@ -6,9 +6,8 @@ const Route = use('Route')
 Route.group(() => {
   Route.post('register', 'RegisterController.store')
     .as('auth.register')
+    .validator('Auth/Register')
     .middleware(['upload:avatar'])
-  // TODO validator
-  // .validator('Auth/Register')
 })
   .namespace('Auth')
   .prefix('v1/auth')

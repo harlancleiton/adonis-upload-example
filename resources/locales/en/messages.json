@@ -1,0 +1,6 @@
+{
+  "forbidden": "Unauthorized access",
+  "internal_server_error": "Internal server error",
+  "key_constraint": "Internal server key error",
+  "unauthorized": "Incorrect username or password"
+}
